@@ -24,11 +24,11 @@ Although I don't have any technical background or previous experience in program
 
 ### Code Example
 
-
-```
+``` 
 function multiply(a, b){
  return  a * b
-} ```     
+} 
+```  
 
 
 ### Education
