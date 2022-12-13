@@ -1,44 +1,111 @@
+
+
 body {
-    background-color: #E6D5B8;
-    color: #1B1A17;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F4CE74;
+    color: #2F3032;
+    font-family: 'Cairo', sans-serif;
     margin: 0;
+    padding: 0;
 
 }
 
+div {margin: 0;
+padding: 0;}
+main {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F4CE74;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.5rem;
+}
+hr {
+    width: 10%;
+    border-style: dotted none none none;
+    color: #F4CE74;
+    border-top-width: 6px;
+    margin-top: 30px;
+}
 .header {
 
-    background-color: #F0A500;
+    background-color: #383A56;
     width: 100%;
    
 }
 
-.navList {
+.nav-list {
     list-style: none;
     margin: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+}
+
+i {
+    padding: 0 10px;
+}
+
+.list {
+list-style: none;
+line-height: 24px;
+
 }
 .main-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;  
     justify-content: center;
-    margin: 20px 150px;
+    margin: 20px 10%;
     background-color: whitesmoke;
-  
+    border: none;
+  padding: 0;
 }
 
 
+.info {
+    padding: 10px 10%;
+}
 
 .section {
-    width: 55%;
-    padding: 10px 20px;
+    width: 60%;
+    margin: 0;
+   
 }
 
 .sectionLeft {
-    width: 35%;
+    width: 40%;
+       background-color: #383A56;
+    margin: 0;
+    color: #F4CE74;
+   
+}
+
+.nav-list-item {
+    padding: 10px 20px;
+   
+}
+
+.footer {
+    text-align: center;
+    background-color: #383A56;
+    color: #F4CE74;
+    margin: 0;
+    padding: 12px;
+    border: none;
+}
+.footer-item {
     padding: 10px 20px;
 }
 
