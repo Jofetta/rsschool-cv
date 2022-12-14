@@ -121,6 +121,7 @@ line-height: 32px;
 .image {
     padding: 15px auto 25px auto;
     text-align: center;
+    min-height: 200px;
 }
 .testResult {
     width: 20%;
