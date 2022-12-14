@@ -130,7 +130,7 @@ line-height: 32px;
     width: 50px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 750px) {
 
     .main-container {
         display:block;
