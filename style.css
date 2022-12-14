@@ -1,0 +1,156 @@
+
+
+body {
+    background-color: #E6D5B8;
+    color: #2F3032;
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {margin: 0;
+padding: 0;}
+main {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E6D5B8;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.project-link {
+    color:#383A56;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.5rem;
+}
+hr {
+    width: 10%;
+    border-style: dotted none none none;
+    color: #E6D5B8;
+    border-top-width: 6px;
+    margin-top: 30px;
+}
+.header {
+
+    background-color: #383A56;
+    width: 100%;
+   
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+i {
+    padding: 0 10px;
+}
+
+.list {
+list-style: none;
+line-height: 32px;
+
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    justify-content: center;
+    margin: 20px 10%;
+    background-color: whitesmoke;
+    border: none;
+  padding: 0;
+}
+
+
+.info {
+    padding: 10px 10%;
+}
+
+.section {
+    width: 60%;
+    margin: 0;
+   
+}
+
+.sectionLeft {
+    width: 40%;
+       background-color: #383A56;
+    margin: 0;
+    color: #E6D5B8;
+   
+}
+
+.nav-list-item {
+    padding: 10px 20px;
+   
+}
+
+.footer {
+    text-align: center;
+    background-color: #383A56;
+    color: #E6D5B8;
+    margin: 0;
+    padding: 12px;
+    border: none;
+}
+.footer-item {
+    padding: 10px 20px;
+}
+
+.myPicture {
+    width: 50%;
+
+}
+
+.image {
+    padding: 15px auto 25px auto;
+    text-align: center;
+}
+.testResult {
+    width: 20%;
+}
+
+.logo {
+    width: 50px;
+}
+
+@media (max-width: 750px) {
+
+    .main-container {
+        display:block;
+       }
+       .section {
+        width: 100%;
+       }
+       .sectionLeft {
+        width: 100%;
+       }
+       hr {
+        visibility: hidden;
+       }
+       .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .nav-list-item {
+        padding: 5px 10px 0;
+       }
+
+
+}
